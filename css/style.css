@@ -40,8 +40,11 @@ p {
     font-size: 14px;
     line-height: 1.2em;
 }
+.a {
+    color: grey;
+}
 .name {
-    padding: 20px;
+    padding: 5px;
     display:flex;
     color: white;
     background-color: lightseagreen;
