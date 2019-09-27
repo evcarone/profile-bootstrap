@@ -34,6 +34,9 @@
 image {
     max-height: 100px;
     max-width: auto;
+    display: inline-block;
+    /* justify-content: center; */
+    /* text-align: center; */
 }
 h1 {
     color: lightseagreen;
@@ -54,9 +57,13 @@ p {
     font-size: 24pt;
     margin-left: 20px;
 }
+.col-md-3 {
+    text-align: center;
+}
 .col-md-10 {
     background-color: white;
     margin: inherit;
+    padding: 5px;
     text-align: left;
     color: gray;
 }
